@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>D:/BaiduNetdiskDownload/button.jpg</file>
+        <file>D:/BaiduNetdiskDownload/img_bg_level_2.jpg</file>
+        <file>D:/BaiduNetdiskDownload/background-1.jpg</file>
+        <file>D:/BaiduNetdiskDownload/background-2.jpg</file>
+        <file>D:/BaiduNetdiskDownload/bullet_4.png</file>
+        <file>D:/BaiduNetdiskDownload/number-1.jpg</file>
+        <file>D:/BaiduNetdiskDownload/tower-1.jpg</file>
+        <file>D:/BaiduNetdiskDownload/backbutton-2.jpg</file>
+        <file>D:/BaiduNetdiskDownload/backbutton-3.jpg</file>
+        <file>D:/BaiduNetdiskDownload/number-2.jpg</file>
+        <file>D:/BaiduNetdiskDownload/background-3.jpg</file>
+        <file>D:/BaiduNetdiskDownload/button--1.jpg</file>
+        <file>D:/BaiduNetdiskDownload/enemy.png</file>
+        <file>D:/BaiduNetdiskDownload/exit.jpg</file>
+    </qresource>
+</RCC>
