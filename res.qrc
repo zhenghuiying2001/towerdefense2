@@ -1,18 +1,22 @@
 <RCC>
     <qresource prefix="/">
-        <file>D:/BaiduNetdiskDownload/button.jpg</file>
-        <file>D:/BaiduNetdiskDownload/img_bg_level_2.jpg</file>
-        <file>D:/BaiduNetdiskDownload/background-1.jpg</file>
-        <file>D:/BaiduNetdiskDownload/background-2.jpg</file>
-        <file>D:/BaiduNetdiskDownload/bullet_4.png</file>
-        <file>D:/BaiduNetdiskDownload/number-1.jpg</file>
-        <file>D:/BaiduNetdiskDownload/tower-1.jpg</file>
-        <file>D:/BaiduNetdiskDownload/backbutton-2.jpg</file>
-        <file>D:/BaiduNetdiskDownload/backbutton-3.jpg</file>
-        <file>D:/BaiduNetdiskDownload/number-2.jpg</file>
-        <file>D:/BaiduNetdiskDownload/background-3.jpg</file>
-        <file>D:/BaiduNetdiskDownload/button--1.jpg</file>
-        <file>D:/BaiduNetdiskDownload/enemy.png</file>
-        <file>D:/BaiduNetdiskDownload/exit.jpg</file>
+        <file>res/backbutton-2.jpg</file>
+        <file>res/background-1.jpg</file>
+        <file>res/background-2.jpg</file>
+        <file>res/background-4.jpg</file>
+        <file>res/bomb-1.png</file>
+        <file>res/bullet_13.png</file>
+        <file>res/button.jpg</file>
+        <file>res/enemy.png</file>
+        <file>res/exit.jpg</file>
+        <file>res/img_bg_level_2.jpg</file>
+        <file>res/img-plane_6.png</file>
+        <file>res/number-1.jpg</file>
+        <file>res/number-2.jpg</file>
+        <file>res/bomb-2.png</file>
+        <file>res/bomb-4.png</file>
+        <file>res/bomb-5.png</file>
+        <file>res/bomb-6.png</file>
+        <file>res/bomb-7.png</file>
     </qresource>
 </RCC>

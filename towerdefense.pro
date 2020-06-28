@@ -29,21 +29,30 @@ SOURCES += \
     mybutton.cpp \
     mywindow.cpp \
     thirdwindow.cpp \
-    tower.cpp \
-    myobject.cpp \
-    secondwindow.cpp
+    secondwindow.cpp \
+    heroplane.cpp \
+    bullet.cpp \
+    map.cpp \
+    enemyplane.cpp \
+    bomb.cpp
 
 HEADERS += \
         mainwindow.h \
     mybutton.h \
     mywindow.h \
     thirdwindow.h \
-    tower.h \
-    myobject.h \
-    secondwindow.h
+    secondwindow.h \
+    config.h \
+    heroplane.h \
+    bullet.h \
+    map.h \
+    enemyplane.h \
+    bomb.h
 
 FORMS += \
         mainwindow.ui
 
 RESOURCES += \
+    res.qrc \
+    res.qrc \
     res.qrc

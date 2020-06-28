@@ -11,9 +11,10 @@
 MyWindow::MyWindow(QWidget *parent) :
     QMainWindow(parent)
 {
+
     this->setFixedSize(800,600);
     //在选关界面添加返回按钮
-    MyButton* back_btn=new MyButton(":/D:/BaiduNetdiskDownload/backbutton-2.jpg");
+    MyButton* back_btn=new MyButton(":/res/backbutton-2.jpg");
     back_btn->setParent(this);
     back_btn->move(650,40);
     connect(back_btn,&MyButton::clicked,this,[=](){
@@ -26,7 +27,7 @@ MyWindow::MyWindow(QWidget *parent) :
     });
 
     //在选关界面添加选择第一关按钮
-    MyButton* btn=new MyButton(":/D:/BaiduNetdiskDownload/number-1.jpg");
+    MyButton* btn=new MyButton(":/res/number-1.jpg");
     btn->setParent(this);
     btn->move(50,50);
     secondwindow* swindow=new secondwindow;
@@ -44,7 +45,7 @@ MyWindow::MyWindow(QWidget *parent) :
     });
 
     //在选关界面添加选择第二关按钮
-    MyButton* btn2=new MyButton(":/D:/BaiduNetdiskDownload/number-2.jpg");
+    MyButton* btn2=new MyButton(":/res/number-2.jpg");
     btn2->setParent(this);
     btn2->move(450,200);
     thirdwindow* twindow=new thirdwindow;
@@ -67,6 +68,6 @@ MyWindow::MyWindow(QWidget *parent) :
 void MyWindow::paintEvent(QPaintEvent *)
 {
     QPainter painter(this);
-    QPixmap pixmap(":/D:/BaiduNetdiskDownload/background-1");
+    QPixmap pixmap(":/res/background-1");
     painter.drawPixmap(0,0,this->width(),this->height(),pixmap);
 }
